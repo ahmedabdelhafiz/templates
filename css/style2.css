@@ -1,0 +1,142 @@
+/*Some Rules*/
+.container{width: 590px; margin: auto}
+/*End Of Rules*/
+
+/*Start Of Header*/
+.header
+{
+    background-color: #360836;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px
+}
+.header ul
+{
+    list-style: none;
+    padding-left: 0;
+    display: inline;
+}
+.header ul li
+{
+    display: inline;
+    padding: 10px;
+}
+.header ul li a
+{
+    text-decoration: none;
+    color:#FB5C8B;
+}
+.header ul li a.active ,.header ul li a:hover{color: #fff}
+/*End Of Header*/
+
+/*Start Of Slider*/
+.slider
+{
+    background-image: url(../Images/coverPage2.PNG);
+    background-size: cover;
+    text-align: center;
+    margin-top: 0;
+}
+.slider .intro
+{
+    padding-top: 30px;
+    overflow: hidden;
+}
+.slider .intro h1
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+}
+.slider .intro p
+{
+    margin-top: 2px;
+    font-size: 20px;
+    letter-spacing: 2px
+}
+.slider .intro h3
+{
+    color: #FF0048;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 40px
+}
+.slider .intro form
+{
+    float: left;
+    margin-left: 8%;
+    overflow: hidden;
+}
+.slider .intro form input
+{
+    display:block;
+    width: 476px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color:#F82D66;
+    color: #fff;
+    border: none;
+}
+.slider .intro form textarea
+{
+    display:block;
+    width: 476px;
+    height: 131px;
+    padding: 10px;
+    background-color:#F82D66;
+    color: #fff;
+    border: none;
+    margin-bottom: 10px;
+}
+.slider .intro form button
+{
+    float: right;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    margin-bottom: 70px;
+}
+/*End Of Slider*/
+
+/*Start Of Content*/
+.content
+{
+    background-color: #F3F3F3;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.content h2
+{
+    margin-top: 0;
+    padding-top: 40px;
+    color: #F82D66;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.content p{line-height: .5;margin-top: 4px;}
+
+.content p:first-of-type{margin-bottom: 7px;}
+
+.content a
+{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+/*End Of Content*/
+
+/*Start Of Footer*/
+.footer
+{
+    background-color: #DDDCDC;
+    text-align: center;
+    padding: 40px;
+    letter-spacing: 2px;
+}
+
+.footer a{text-decoration: none; color: #F82D66;}
+/*End Of Footer*/

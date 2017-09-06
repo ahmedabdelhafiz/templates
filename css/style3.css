@@ -1,0 +1,129 @@
+/*Some Rules*/
+.container
+{
+    width: 985px;
+    margin: auto;
+}
+/*End Of Rules*/
+
+/*Start Of Navbar*/
+.navbar
+{
+    background-color:#360836;
+    text-align: center;
+    padding: 15px
+}
+.navbar ul
+{
+    padding-left: 0;
+    list-style: none;
+    display: inline;
+    
+}
+.navbar ul li
+{
+    display: inline;
+    padding: 10px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color:#FB5C8B;
+}
+.navbar ul li a.active ,.navbar ul li a:hover
+{
+    color: #fff;
+}
+/*End Of Navbar*/
+
+/*Start Of Slider*/
+.slider
+{
+    background-image:url(../Images/coverPage2.PNG);
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.slider h1
+{
+    margin-top: 0;
+    padding-top: 20px;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 45px
+}
+.slider .content
+{
+    height: 550px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.slider .content .parent
+{
+    background-color: #F3F3F3;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+.slider .content .iamge
+{
+    background-image: url(../Images/image_4.jpg);
+    background-size: cover;
+    height: 330px;
+    width: 470px;
+    float: left;
+    width: 50%;
+}
+.slider .content .iamge .hov-text
+{
+    background-color: #F3F3F3;
+    opacity: 0;
+    height: 100%;
+    text-align: center;
+}
+.slider .content .iamge .hov-text p
+{
+    margin-top: 0;
+    margin: auto;
+    padding-top: 25%;
+    width: 380px;
+}
+.slider .content .iamge:hover .hov-text
+{
+    opacity: 1;
+}
+.slider .content .info
+{
+    float: left;
+    width: 50%;
+    padding-top: 10%;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.slider .content .info button
+{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    margin-top: 5px;
+}
+/*End Of Slider*/
+
+/*Start Of Footer*/
+.footer
+{
+    background-color: #DDDCDC;
+    text-align: center;
+    padding: 40px;
+    letter-spacing: 2px;
+}
+.footer a
+{
+    text-decoration: none;
+    color: #F82D66;
+}
+/*End Of Footer*/
